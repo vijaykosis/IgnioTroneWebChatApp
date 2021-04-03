@@ -12,6 +12,7 @@ import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.messaging.simp.annotation.SubscribeMapping;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ import java.util.List;
 import static java.lang.String.format;
 
 @Controller
+@RequestMapping("/api")
 public class ChatAppController
 {
 
