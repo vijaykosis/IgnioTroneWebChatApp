@@ -21,7 +21,6 @@ import java.util.List;
 import static java.lang.String.format;
 
 @Controller
-@RequestMapping("/api")
 public class ChatAppController
 {
 
