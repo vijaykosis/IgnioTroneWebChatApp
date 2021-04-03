@@ -1,4 +1,4 @@
-# usaskchat
+# IgnioTrone Web Chat Application
 A Chat Application build on Spring Websocket and Stomp JS
 
 Features Included:
